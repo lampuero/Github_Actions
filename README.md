@@ -2,9 +2,18 @@
 Test repository for github actions
 ## Test 1
 - Prueba de automaton para revisar branch utilizara en checkout.
+### Resultado
+- No corrio.
 ## Test 2
-- Test 1 no corrio automaton.
 - Se actualizo automaton ante falla en test 1 (cambio branch en pull_request_target).
+### Resultado
+- Corrio pero fallo.
 ## Test 3
-- Test 2 corrio pero fallo.
 - Se actualizo el comando ejecutado en run.
+### Resultado
+- Corrio bien.
+## Test 4
+- Se agrego comandos para imprimir titulo y cuerpo de pull request.
+- Se agrego condicion para correr solo cuando la head branch empieza con `release/`.
+### Resultado
+- Por correr.
