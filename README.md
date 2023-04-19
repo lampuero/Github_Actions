@@ -21,4 +21,7 @@ Test repository for github actions
 - Se modificaron los comandos para imprimir datos pr.
 - Se encerro condicion en parentesis
 ### Resultado
-- Por correr.
+- Fallo
+## Test 6
+- Se corriogio un tipeo.
+- Se volvio a condicion anterior
