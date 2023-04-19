@@ -14,7 +14,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   release:
-    if: (github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/'))
+    if: github.event.pull_request.merged == true
     # The type of runner that the job will run on
     runs-on: macos-latest
 
@@ -38,6 +38,6 @@ jobs:
       - name: Git log
         run: git log
       - name: Print Title of PR
-        run: echo "The Title of your PR is ${{ github.event.pull_request.title }}"
+        run: echo The Title of your PR is ${{ github.event.pull_request.title }}
       - name: Print Body of PR
-        run: echo "The body is ${{ github.event.pull_request.body }}"
+        run: echo The body is ${{ github.event.pull_request.body }}
