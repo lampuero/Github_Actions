@@ -37,7 +37,3 @@ jobs:
         run: git status
       - name: Git log
         run: git log
-      - name: Print Title of PR
-        run: echo The Title of your PR is ${{ github.event.pull_request.title }}
-      - name: Print Body of PR
-        run: echo The body is ${{ github.event.pull_request.body }}
