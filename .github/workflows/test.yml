@@ -13,14 +13,15 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  if_merged:
-    if: github.event.pull_request.merged == true
+  release:
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/')
     # The type of runner that the job will run on
     runs-on: macos-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout repository
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
@@ -36,3 +37,8 @@ jobs:
         run: git status
       - name: Git log
         run: git log
+      - name : Print Title of PR
+        run: echo The Title of your PR is ${{ github.event.pull_request.title }}
+      - name: Print Body of PR
+        run: echo The body is ${{ github.event.pull_request.body }}
+
