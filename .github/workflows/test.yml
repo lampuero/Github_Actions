@@ -6,8 +6,7 @@ name: CI
 on:
   pull_request_target:
     branches: 
-      - 'release/**'
-      - 'hotfix/**'
+      - 'main'
     types:
       - closed
 
