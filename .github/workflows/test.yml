@@ -33,4 +33,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Branch name
-        run: echo "${git status}"
+        run: git status
+      - name: Git log
+        run: git log
