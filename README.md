@@ -16,4 +16,9 @@ Test repository for github actions
 - Se agrego comandos para imprimir titulo y cuerpo de pull request.
 - Se agrego condicion para correr solo cuando la head branch empieza con `release/`.
 ### Resultado
+- Fallo, al parecer los comandos para imprimir los datos del pr estaban mal.
+## Test 5
+- Se modificaron los comandos para imprimir datos pr.
+- Se encerro condicion en parentesis
+### Resultado
 - Por correr.
