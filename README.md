@@ -34,4 +34,8 @@ Test repository for github actions
 ## Test 8
 - Se volvio a agregar comandos a probar.
 ### Resultado
-- 
+- Fallo al imprimir el body
+## Test 9
+- Se agreo condicion de nombre de head branch.
+### Resultado
+-
