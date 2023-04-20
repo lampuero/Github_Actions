@@ -41,3 +41,9 @@ Test repository for github actions
 - Tal como se esperaba no se realizo el trabajo
 ## Test 10
 - Mismo que test 9 pero ahora con el nombre correcto en head branch
+### Resultado
+- Corrio como se esperaba
+## Test 11
+- Se modifico el comando para imprimir cuerpo pr
+### Resultado
+
