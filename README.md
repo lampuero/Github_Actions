@@ -46,4 +46,8 @@ Test repository for github actions
 ## Test 11
 - Se modifico el comando para imprimir cuerpo pr
 ### Resultado
+- Fallo
+## Test 12
+- Se agrego comandos para imprimir variables disponibles.
+### Resultado
 
