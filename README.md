@@ -58,3 +58,7 @@ Test repository for github actions
 - El cache no se guarda porque el trabajo termina con errores.
 ## Test 14
 - Se elimino el step que fallaba
+### Resultado
+- Se ejecuto bien todo el job
+## Test 15
+- Se volvio a gregar el step de release pero ahora se le dio todos los permisos al token
