@@ -62,3 +62,8 @@ Test repository for github actions
 - Se ejecuto bien todo el job
 ## Test 15
 - Se volvio a gregar el step de release pero ahora se le dio todos los permisos al token
+### Resultado
+- Fallo, se ocupo un valor invalido en los permisos.
+
+## Test 16
+- Se cambio los permisos
