@@ -25,3 +25,9 @@ Test repository for github actions
 ## Test 6
 - Se corriogio un tipeo.
 - Se volvio a condicion anterior
+### Resultado
+- Fallo
+## Test 7
+- Se indentifico y corrigio error que hizo que fallaran los test anteriores.
+### Resultado
+- 
