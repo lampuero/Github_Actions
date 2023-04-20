@@ -9,7 +9,7 @@ on:
       - 'main'
     types:
       - closed
-
+permissions: read-all|write-all
 env:
   GH_TOKEN: ${{ github.token }}
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -43,4 +43,5 @@ jobs:
       - name: Save version number
         run: |
           echo "VERSION=1.1.0" >> $GITHUB_ENV
-
+      - name: Create release
+        run: gh release create "$VERSION" --generate-notes
