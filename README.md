@@ -30,4 +30,8 @@ Test repository for github actions
 ## Test 7
 - Se indentifico y corrigio error que hizo que fallaran los test anteriores.
 ### Resultado
+- Corrio bien
+## Test 8
+- Se volvio a agregar comandos a probar.
+### Resultado
 - 
