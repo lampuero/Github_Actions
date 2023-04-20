@@ -50,4 +50,7 @@ Test repository for github actions
 ## Test 12
 - Se agrego comandos para imprimir variables disponibles.
 ### Resultado
+- Funciono bien, se identifico que se fallo antes al imprimir el cuerpo del pr porque parte del texto era interpretado como un comando en vez de ser solo string. Solucion encerrar la variable en comillas.
 
+## Test 13
+- se agrego acciones para guardar en cache los pods
