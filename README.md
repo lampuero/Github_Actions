@@ -54,3 +54,7 @@ Test repository for github actions
 
 ## Test 13
 - se agrego acciones para guardar en cache los pods
+### Resultado
+- El cache no se guarda porque el trabajo termina con errores.
+## Test 14
+- Se elimino el step que fallaba
