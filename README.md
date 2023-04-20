@@ -36,6 +36,8 @@ Test repository for github actions
 ### Resultado
 - Fallo al imprimir el body
 ## Test 9
-- Se agreo condicion de nombre de head branch.
+- Se agrego condicion de nombre de head branch.
 ### Resultado
--
+- Tal como se esperaba no se realizo el trabajo
+## Test 10
+- Mismo que test 9 pero ahora con el nombre correcto en head branch
