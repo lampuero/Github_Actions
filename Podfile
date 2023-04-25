@@ -7,6 +7,7 @@ target 'TestApp' do
   
 
   # Pods for TestApp
+  pod 'MapLibre', , :source => 'https://github.com/lazarilloapp/LZPodSpecs.git'
   pod 'Alamofire', '~> 5'
   pod 'Polyline', '5.1.0'
   pod 'SwiftLint'
