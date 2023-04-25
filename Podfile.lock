@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (5.6.4)
   - Kingfisher (7.6.2)
+  - MapLibre (5.12.0)
   - Polyline (5.1.0)
   - ReachabilitySwift (5.0.0)
   - RxCocoa (6.5.0):
@@ -22,6 +23,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5)
   - Kingfisher (~> 7.0)
+  - MapLibre
   - Polyline (= 5.1.0)
   - ReachabilitySwift
   - RxSwift
@@ -29,6 +31,8 @@ DEPENDENCIES:
   - SwiftLint
 
 SPEC REPOS:
+  https://github.com/lazarilloapp/LZPodSpecs.git:
+    - MapLibre
   trunk:
     - Alamofire
     - Kingfisher
@@ -43,6 +47,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
+  MapLibre: 5a47a848ed758c8b370b48b9ca098563b2c4da26
   Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
@@ -51,6 +56,6 @@ SPEC CHECKSUMS:
   RxSwiftExt: d61c4b9b06e0a448041b1c659e0f1b5c5a035afc
   SwiftLint: 1b7561918a19e23bfed960e40759086e70f4dba5
 
-PODFILE CHECKSUM: f9067ab39e723183e8e0d9a4fa7b8ef72136f791
+PODFILE CHECKSUM: a03113d1e6ecf564824c85cc8d5b0785f5a1fbb7
 
 COCOAPODS: 1.11.3
